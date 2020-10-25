@@ -39,7 +39,7 @@ img {
 
 .sliderBack {
     min-height: 600px;
-    background-image: url('/images/samia-ahmed-samiaahmed-cool-beach.jpg');
+    background-image: url('../images/samia-ahmed-samiaahmed-cool-beach.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -47,7 +47,7 @@ img {
 .main-nav {
     position: static;
     top: auto;
-    background-image: url(/images/nature-background-silhouette-7.png), linear-gradient(175deg, #111111 0%, #3685aa 91%) !important;
+    background-image: url("../images/nature-background-silhouette-7.png"), linear-gradient(175deg, #111111 0%, #3685aa 91%) !important;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
