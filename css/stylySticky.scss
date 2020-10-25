@@ -19,7 +19,7 @@ img {
 }
 
 .logo {
-    background-color: #c30000;
+    background-color: #1abb97;
     max-width: 0;
     overflow: hidden;
     transition: all .5s;
@@ -34,12 +34,12 @@ img {
 }
 
 .logo a:hover {
-    background-color: #f60404;
+    background-color: #ac5b6d;
 }
 
 .sliderBack {
     min-height: 600px;
-    background-image: url('https://images.unsplash.com/photo-1570905668667-03183c134d04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-image: url('/images/samia-ahmed-samiaahmed-cool-beach.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -47,7 +47,10 @@ img {
 .main-nav {
     position: static;
     top: auto;
-    background: #222;
+    background-image: url(/images/nature-background-silhouette-7.png), linear-gradient(175deg, #111111 0%, #3685aa 91%) !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 
 .fixed-nav .main-nav {
