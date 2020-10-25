@@ -1,0 +1,99 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.Allcontainer {
+  background-color: #ececec;
+}
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo {
+  background-color: #c30000;
+  max-width: 0;
+  overflow: hidden;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.fixed-nav .logo {
+  max-width: 300px;
+}
+
+.logo a {
+  color: #ffffff;
+}
+
+.logo a:hover {
+  background-color: #f60404;
+}
+
+.sliderBack {
+  min-height: 600px;
+  background-image: url("https://images.unsplash.com/photo-1570905668667-03183c134d04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-position: center;
+  background-size: cover;
+}
+
+.main-nav {
+  position: static;
+  top: auto;
+  background: #222;
+}
+
+.fixed-nav .main-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.main-nav ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.main-nav li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  color: #fff;
+}
+
+.main-nav a {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  background: #666;
+}
+
+.post {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.copyright p {
+  margin: 0;
+  text-align: center;
+  padding: 1rem 0;
+}
+/*# sourceMappingURL=stylySticky.css.map */
